@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Séance Studio</title>
+    <link rel="stylesheet" href="ecom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="icon" href="ecomicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Contact Us @</h1>
+        <div class="contact-info">
+            <p>Name: laks</p>
+            <p>Phone: 9686319680</p>
+            <p>Email: <a href="mailto:lakshita.guna@gmail.com">lakshita.guna@gmail.com</a></p>
+        </div>
+        <div class="feedback-form">
+            <h2>*Feedback</h2>
+            <form action="submit_feedback.php" method="post">
+                <div class="form-group">
+                    <label for="name">your name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">your email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">your description:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        &copy;Séance Studio
+    </footer>
+</body>
+</html>
